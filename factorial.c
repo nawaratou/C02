@@ -1,21 +1,12 @@
-#include <stdio.h>
-
-// Programme qui calcule le factoriel d'un nombre entier
-int main() {
-    int n, i;
-    unsigned long long resultat = 1;
-
-    printf("Entrez un entier positif : ");
-    scanf("%d", &n);
-
-    if (n < 0) {
-        printf("Le factoriel n'est pas défini pour les nombres négatifs.\n");
-    } else {
-        for (i = 1; i <= n; ++i) {
-            resultat *= i;
-        }
-        printf("Le factoriel de %d est : %llu\n", n, resultat);
-    }
-
-    return 0;
-}
+#include<stdio.h>
+int main()
+		{int p,n,i;
+		printf("$ ./factorial\n");
+		scanf("%d",&n);
+		p=1;
+		for(i=1;i<=n;i++)
+			{p=p*i;
+			}
+		printf("le factoriel de %d est: %d",n,p);
+		return 0;
+		}
