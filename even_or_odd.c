@@ -1,10 +1,8 @@
 #include<stdio.h>
 int main() {
 		int nombre;
-
 	printf("$ ./even_odd\n");
 	scanf("%d",&nombre);
-	
 	if(nombre % 2== 0) {
 		printf("%d est un nombre pair.\n",nombre);
 	}
