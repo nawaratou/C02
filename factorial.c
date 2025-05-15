@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main() {
 	int N;
-	int i =1;
-	int f =1;
+	int f = 1;
 	printf("$ ./factorial\n");
 	scanf("%d", &N);
-	for ( i = 1; i<=N;i++)
+	for ( int i = 1; i <= N;i++)
 	{
 		f*=i;
 	}
