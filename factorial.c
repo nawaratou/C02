@@ -1,6 +1,6 @@
 #include<stdio.h>
-int main()
-		{int p,n,i;
+int main() {
+	    int p,n,i;
 		printf("$ ./factorial\n");
 		scanf("%d",&n);
 		p=1;

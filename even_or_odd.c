@@ -1,13 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main() {
-		int nombre;
+	int n;
+
 	printf("$ ./even_odd\n");
-	scanf("%d",&nombre);
-	if(nombre % 2== 0) {
-		printf("%d est un nombre pair.\n",nombre);
+	scanf("%d", &n);
+	
+	if(n % 2 == 0) 
+	{
+		printf("%d le nombre est pair\n",n);
 	}
-	else {
-		printf("%d est un nombre impair.\n",nombre);
+	else
+	{
+		printf("%d le nombre est impair\n",n); 
 	}
-	return 0;		
-	}
+	return 0;
+}
+
